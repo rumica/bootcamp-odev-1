@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homework 1</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/9c6db4b22e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--NAVBAR-->
+  <header>
+    <div class="logo">
+      <img id="snow" src="img/snow.png" alt="" />
+    </div>
+
+    <div class="search-bar">
+      <input class="search-input" type="text" placeholder="Search" />
+      <button class="search-button"><i class="fa fa-search"></i></button>
+    </div>
+  </header>
+
+  <!--MENU-->
+
+  <aside>
+    <div class="menu">
+      <ul>
+        <li class="productLink"><a href="#">Products</a></li>
+        <li class="formLink"><a href="#">Order Now!</a></li>
+      </ul>
+    </div>
+
+    <div class="menu-button">
+      <i class="fas fa-bars"></i>
+    </div>
+  </aside>
+
+  <!--FORM-->
+
+  <form id="form-area" action="/action_page.php">
+    <label for="fname">Full Name:</label><br />
+    <input type="text" id="name" name="fname" value="" /><br />
+    <label for="telephone">Telephone:</label><br />
+    <input type="text" id="phone" name="telephone" value="" /><br />
+    <label for="adress">Address:</label><br />
+    <input type="text" id="address" name="lname" /><br /><br />
+    <input id="submit" type="submit" value="Submit" />
+  </form>
+
+  <!--CARDS-->
+
+  <div class="cards"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
