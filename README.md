@@ -1,3 +1,3 @@
-# bootcamp-odev-1
+# Bootcamp 1. Ödev:
 
-[LIVE]()
+[LIVE](https://rumica.github.io/bootcamp-odev-1/)
